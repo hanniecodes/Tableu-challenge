@@ -1,141 +1,70 @@
-# Unit 18 Homework: Citi Bike Analytics
+# Citi Bike Jersey City Data Analysis 
 
-## Before You Begin
 
-* Save this assignment to your Tableau Public account rather than GitHub. 
-
-* If you haven't already, make sure to create a Tableau Public [account] (https://public.tableau.com/s/).
-
-* The free tier of Tableau only lets you save to their public server. So, each time you save your file, it will be uploaded to your Tableau Public profile. 
-
-* You can load and continue working on the same workbook.
-
-* When you finish your assignment, you will submit the URL to your Tableau Public workbook along with any additional files used in your analysis. 
 
 ## Background
 
-![Citi-Bikes](Images/citi-bike-station-bikes.jpg)
+![image](https://github.com/hanniecodes/Tableu-challenge/blob/main/images/1280px-Citi_Bike_logo.svg.png?raw=true)
 
-Congratulations on your new job! As the new lead analyst for the [New York Citi Bike](https://en.wikipedia.org/wiki/Citi_Bike) Program, you are now responsible for overseeing the largest bike-sharing program in the United States. In your new role, you will be expected to generate regular reports for city officials looking to publicize and improve the city program.
+With the recent 2021 expansion of the NYC [Citi Bike](https://ride.citibikenyc.com/blog/nj-expansion) ride-share program into Jersey City, it is important to gain insights into station use, bike type use, membership use, and casual bike ride use. The focus of this analysis is to look at Jersey City Bike Station data and explore these considerations through stations.  Looking at the last 6 months (January- June 2022) of Jersey City [Citi Bike](https://ride.citibikenyc.com/blog/nj-expansion) data, this presentation will explore trends for bike station popularity, ride-type preference, and membership use. 
+webpage. This presentation was created using [Tableu](https://public.tableau.com/views/Tableu_Challenge_HA2022/Story1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link). 
+<br>
+![image](https://github.com/hanniecodes/Tableu-challenge/blob/main/images/intro%20page.jpg?raw=true) 
 
-Since 2013, the Citi Bike Program has implemented a robust infrastructure for collecting data on the program's utilization. Each month, bike data is collected, organized, and made public on the [Citi Bike Data](https://www.citibikenyc.com/system-data) webpage.
+<br>
+<br>
+<b>Questions:</b><br>
+1. What were the busiest Starting and Ending locations for the last 6 months and the difference in each month? <br>
+2. What were the least busy Starting and Ending locations for the last 6 months and the difference in each month? <br>
+3. What types of bikes are used at each station and are there any differences by month?<br> 
+4. Which stations are most popular for casual users or members?<br>
 
-However, while the data has been regularly updated, the team has yet to implement a dashboard or sophisticated reporting process. City officials have questions about the program, so your first task on the job is to build a set of data reports to provide the answers.
+There were three parts to this assignment:
+- [Question1](#Question1)
+- [Question2](#Question2)
+- [Question3](#Question3)
+- [Question4](#Question4)
 
-## Instructions
+## Question1
+<br>
+1. What were the busiest Starting and Ending locations for the last 6 months and the difference in each month? <br>
 
-Your task in this assignment is to aggregate the data found in the Citi Bike Trip History Logs and find two unexpected phenomena.
+![image](https://github.com/hanniecodes/Tableu-challenge/blob/main/images/10%20busiest%20stations.jpg?raw=true)  
+<br>
 
-1. Design 2–5 visualizations for each discovered phenomenon (4–10 total). You may work with a timespan of your choosing. Optionally, you can also merge multiple datasets from different periods.
+![image](https://github.com/hanniecodes/Tableu-challenge/blob/main/images/10%20busiest%20end%20stations.jpg?raw=true)  
+<br>
+ THe above charts are looking at the top 10 busiest bike stations to start and end a bike ride at, busy being defined by having the highest count of Ride Ids which indicates bike use. The stations with the most traffic for starting and ending a bike ride,  across all six months of data are Grove St. Path, Hoboken Terminal - Hudson St. & Hudson Pl., and South Waterfront Parkway Sinatra Dr. & 1st. This is determined by the total number of rides calculated by the count of Ride IDs for each station. The Grove St. The numbers were similar for all three top starting and ending stations with the exception of the Grove St.Path station which has approximately 1,000 more rides stopping at that station over the last 6 months than starting.  
 
-The following are questions you may wish to answer. Do not limit yourself to these questions; they are suggestions for a starting point. Be creative!
+## Question2
+<br>
+2. What were the least busy Starting and Ending locations for the last 6 months and the difference in each month? <br>
 
-* How many trips have been recorded in total during the chosen period?
+![image](https://github.com/hanniecodes/Tableu-challenge/blob/main/images/least%20busy%20start%20stations.jpg?raw=true)  
+<br>
 
-* By what percentage has total ridership grown?
+![image](https://github.com/hanniecodes/Tableu-challenge/blob/main/images/least%20busy%20end%20station.jpg?raw=true)   
+<br>
+The stations with the fewest number of started bike rides Bergen Ave & Stegman St., Grant Ave & MLK Dr., and JBS Depot. JBS Depot only had 2 Ride IDs that started at that location. This may indicate that the station may have an obstruction to bike access, as the station only had 4 ride IDs that stopped at that location. All of the stations that were considered least busy for ending a bike ride at only had 1 ride ID within the last 6 months. This indicates that at least 10 stations had only one bike ride that stopped at that location. 
 
-* How have the proportions of short-term customers and annual subscribers changed?
+## Question3
+<br>
+3. What types of bikes are used at each station and are there any differences by month?<br>
 
-* What are the peak hours when bikes are used during the summer months?
+![image](https://github.com/hanniecodes/Tableu-challenge/blob/main/images/Map%20of%20JC.jpg?raw=true)  
+<br>
 
-* What are the peak hours when bikes are used during the winter months?
+![image](https://github.com/hanniecodes/Tableu-challenge/blob/main/images/Bike%20type%20by%20station.jpg?raw=true)   
+<br>
+In reviewing the map, which has visible locations for the stations and the count of type of ride type used at each station by month, Classic Bikes and Electric Bike use were highest at the top 3 busiest bike stations: Grove St. Path, Hoboken Terminal - Hudson St. & Hudson Pl., and South Waterfront Parkway Sinatra Dr. & 1st. However, docked bikes were more popular aat areas that exist along the waterfront or near Liberty Park. When observing the Area Chart, generally speaking throughout the last six months of this year, docked bikes were used the least. Classic Bikes and Electric bike use were similar in use. However,classic bike use had the highest number of rides over all ride types. 
 
-* Today, what are the top 10 stations in the city for starting a journey? Based on data, why do you hypothesize these are the top locations?
+## Question4
+<br>
+4. Which stations are most popular for casual users or members?<br>
 
-* Today, what are the top 10 stations in the city for ending a journey? Based on data, why?
+![image](https://github.com/hanniecodes/Tableu-challenge/blob/main/images/member%20use%20by%20station.jpg?raw=true)  
+<br>
 
-* Today, what are the bottom 10 stations in the city for starting a journey? Based on data, why?
-
-* Today, what are the bottom 10 stations in the city for ending a journey? Based on data, why?
-
-* How does the average trip duration change by age?
-
-* What is the average distance in miles for a bike trip?
-
-* Which bikes (by ID) are most likely due for repair or inspection in the timespan?
-
-* How variable is the utilization by bike ID?
-
-2. Use your visualizations (not necessarily all of them) to design a dashboard for each phenomenon. The dashboards should be accompanied by an analysis explaining why the phenomenon may be occurring. 
-
-3. Create one of the following visualizations for city officials:
-
-* **Basic:** A static map that plots all bike stations with a visual indication of the most popular locations to start and end a journey, with zip code data overlaid on top.
-
-* **Advanced:** A dynamic map that shows how each station's popularity changes over time (by month and year). Again, with zip code data overlaid on the map.
-
-* The map you choose should also be accompanied by a write-up describing any trends that were noticed during your analysis.
-
-4. Create your final presentation.
-
-    * Create a Tableau story that brings together the visualizations, requested maps, and dashboards.
-
-    * Ensure your presentation is professional, logical, and visually appealing. 
-
-## Considerations
-
-Remember, the people reading your analysis will NOT be data analysts. Your audience will be city officials, public administrators, and heads of New York City municipal departments. Your data and analysis need to be presented in a way that is focused, concise, easy to understand, and visually compelling. Your visualizations should be colorful enough to be included in press releases, and your analysis should be thoughtful enough to inform programmatic changes. 
-
-## Submission 
-
-Your final submission should include:
-
-* A link to your Tableau Public workbook that includes the following:
-  * 4–10 total "phenomenon" visualizations 
-  * 2 dashboards
-  * 1 city official map
-  * 1 story 
-  * A text or markdown file with your analysis of the phenomena you uncovered in the data.
-
-## Sharing Your Work
-
-To share your work, we are asking that you save your workbook as a `.twb`x file so your TAs can grade them.
-
-To save your workbook as a .twbx file, select "Save As..." from the "File" drop-down. Then, select the .twbx option.
-
-## Assessment
-
-Your final product will be assessed on the following metrics:
-
-* Analytic Rigor
-
-* Readability
-
-* Visual Appeal
-
-
-## Hints
-
-* You may need to get creative with how you combine each of the CSV files. Don't just assume Tableau is the right tool for the job. At this point, you have a wealth of technical skills and research abilities. Dig for an approach that works, and go with it.
-
-* Don't assume that the CSV format hasn't changed since 2013. Subtle changes to the formats in any of your columns can interfere with your analysis. Ensure that your data is consistent and clean throughout your analysis. (Hint: Start and End Time change at some point in the history logs).
-
-* Consider building your visualizations with small extracts of the data (like single files) before attempting to import the whole thing. What you will find is that importing all 20+ million records of data will create performance issues quickly. Welcome to "Big Data."
-
-* While utilizing all of the data may seem like a nice power play, consider the time course in making your analysis. Is data from 2013 the most relevant for making bike replacement decisions today? Probably not. Don't let overwhelming data fool you. Ground your analysis in common sense.
-
-* Remember, data alone doesn't answer anything. You will need to accompany your data visualizations with clear and directed answers and analysis.
-
-* As is often the case, your clients are asking for a LOT of answers. Be considerate about their “need to know” and the importance of not "cramming in everything.” Of course, answer each question, but do so in a way that is organized and presentable.
-
-* Since this is a project for the city, spend the appropriate time thinking through decisions on color schemes, fonts, and visual storytelling. The Citi Bike program has a clear visual style. As a suggestion, look for ways to have your data visualizations match their aesthetic.
-
-* Pay attention to labels. What exactly is "time duration?” What's the value of "age of birth?” You will almost certainly need calculated fields to get what you need.
-
-* Look for obvious outliers or false data. Not everyone who signs up for the program is answering honestly.
-
-* In answering the question of "why" a phenomenon is occurring, consider adding other pieces of information, like socioeconomic or geographic data. Tableau has a map "layer" feature that you may find helpful.
-
-* Don't be afraid to manipulate your data and play with settings in Tableau. Tableau is meant to be explored. We haven't covered everything that you’ll need &mdash; so keep an eye out for new tricks!
-
-* Treat this as a serious endeavor! This is an opportunity to show future employers that you have what it takes to be a top-notch analyst. 
-
-
-## Rubric
-
-[Unit 18 Homework Rubric](https://docs.google.com/document/d/11hlhJnKmEJgRYL3mUxRcdrz4AIxBU5PXW5fYrRYvgW8/edit?usp=sharing)
-
-- - -
-
-© 2022 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+<br>
+ The last table indicates count of members and casual users that utilize each station over time. Grove St. consistently has the highest number of of casual users that start from that station. However,more members started bike rides from the Hudson terminal River St.& Hudson Pl. Station in January and February in 2022. From March-June more members started bike rides from the South Waterfront Parkway Sinatra Dr. & 1st.Station in 2022. This may indicate that members utilize their bike memberships less in the winter than in the warmer months. 
 
