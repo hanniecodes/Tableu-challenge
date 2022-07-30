@@ -34,7 +34,7 @@ There were three parts to this assignment:
 
 ![image](https://github.com/hanniecodes/Tableu-challenge/blob/main/images/10%20busiest%20end%20stations.jpg?raw=true)  
 <br>
- THe above charts are looking at the top 10 busiest bike stations to start and end a bike ride at, busy being defined by having the highest count of Ride Ids which indicates bike use. The stations with the most traffic for starting and ending a bike ride,  across all six months of data are Grove St. Path, Hoboken Terminal - Hudson St. & Hudson Pl., and South Waterfront Parkway Sinatra Dr. & 1st. This is determined by the total number of rides calculated by the count of Ride IDs for each station. The Grove St. The numbers were similar for all three top starting and ending stations with the exception of the Grove St.Path station which has approximately 1,000 more rides stopping at that station over the last 6 months than starting.  
+ The above charts are looking at the top 10 busiest bike stations to start and end a bike ride at, busy being defined by having the highest count of Ride Ids which indicates bike use. The stations with the most traffic for starting and ending a bike ride,  across all six months of data are Grove St. Path, Hoboken Terminal - Hudson St. & Hudson Pl., and South Waterfront Parkway Sinatra Dr. & 1st. This is determined by the total number of rides calculated by the count of Ride IDs for each station. The Grove St. The numbers were similar for all three top starting and ending stations with the exception of the Grove St.Path station which has approximately 1,000 more rides stopping at that station over the last 6 months than starting.  
 
 ## Question2
 <br>
@@ -56,7 +56,7 @@ The stations with the fewest number of started bike rides Bergen Ave & Stegman S
 
 ![image](https://github.com/hanniecodes/Tableu-challenge/blob/main/images/Bike%20type%20by%20station.jpg?raw=true)   
 <br>
-In reviewing the map, which has visible locations for the stations and the count of type of ride type used at each station by month, Classic Bikes and Electric Bike use were highest at the top 3 busiest bike stations: Grove St. Path, Hoboken Terminal - Hudson St. & Hudson Pl., and South Waterfront Parkway Sinatra Dr. & 1st. However, docked bikes were more popular aat areas that exist along the waterfront or near Liberty Park. When observing the Area Chart, generally speaking throughout the last six months of this year, docked bikes were used the least. Classic Bikes and Electric bike use were similar in use. However,classic bike use had the highest number of rides over all ride types. 
+In reviewing the map, which has visible locations for the stations and the count of a type of ride type used at each station by month, Classic Bikes and Electric Bike use were highest at the top 3 busiest bike stations: Grove St. Path, Hoboken Terminal - Hudson St. & Hudson Pl., and South Waterfront Parkway Sinatra Dr. & 1st. However, docked bikes were more popular at areas that exist along the waterfront or near Liberty Park. When observing the Area Chart, generally speaking throughout the last six months of this year, docked bikes were used the least. Classic Bikes and Electric bike use were similar in use. However, classic bike use had the highest number of rides overall ride types. 
 
 ## Question4
 <br>
@@ -66,5 +66,5 @@ In reviewing the map, which has visible locations for the stations and the count
 <br>
 
 <br>
- The last table indicates count of members and casual users that utilize each station over time. Grove St. consistently has the highest number of of casual users that start from that station. However,more members started bike rides from the Hudson terminal River St.& Hudson Pl. Station in January and February in 2022. From March-June more members started bike rides from the South Waterfront Parkway Sinatra Dr. & 1st.Station in 2022. This may indicate that members utilize their bike memberships less in the winter than in the warmer months. 
+ The last table indicates the count of members and casual users that utilize each station over time. Grove St. consistently has the highest number of casual users that start from that station. However, more members started bike rides from the Hudson terminal River St.& Hudson Pl. Station in January and February in 2022. From March-June more members started bike rides from the South Waterfront Parkway Sinatra Dr. & 1st.Station in 2022. This may indicate that members utilize their bike memberships less in the winter than in the warmer months.
 
